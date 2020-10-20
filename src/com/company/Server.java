@@ -1,4 +1,4 @@
-package proc;
+package com.company;
 import java.nio.channels.*;
 import java.nio.ByteBuffer;
 import java.net.*;
