@@ -8,6 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
+import javax.sound.sampled.SourceDataLine;
+
 
 public class SocketClient {
     private static String functionName;
@@ -16,7 +18,6 @@ public class SocketClient {
 
     public static void main(String[] args) {
         System.out.println("Client is running ...");
-
         if (!parseArgs(Arrays.asList(args))) {
             System.out.println("Invalid arguments.");
             System.exit(Constants.EXIT_CODE);
